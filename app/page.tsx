@@ -76,7 +76,8 @@ export default function Home() {
         ref={card}
       >
         <Image src={cube} alt="" className="absolute inset-0 z-0" style={{}} />
-        <section className="relative flex flex-col h-full p-2 sm:p-4 bg-gradient-to-r from-black to-transparent z-10 pr-48">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%,rgba(0,0,0,0.00)_25%,rgba(0,0,0,1.00)_100%)] pointer-events-none" />
+        <section className="relative flex flex-col h-full p-2 sm:p-4 z-10 pr-48">
           <h1 className="text-2xl sm:text-4xl z-10">Brooke Chalmers</h1>
           <div className="z-10 text-xl sm:flex hidden gap-2">
             <span>she/her</span> <span>•</span> <span>boston + maine</span>
